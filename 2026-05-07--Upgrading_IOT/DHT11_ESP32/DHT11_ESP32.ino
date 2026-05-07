@@ -1,6 +1,6 @@
-
-#define BLYNK_TEMPLATE_ID "TMPL6je4zhHYC"
-#define BLYNK_DEVICE_NAME "Monitoring DHT11"
+#define BLYNK_TEMPLATE_ID "TMPL65YpKZeTu"
+#define BLYNK_TEMPLATE_NAME "Kelompok 2"
+#define BLYNK_DEVICE_NAME "Kelompok 2"
 
 #define BLYNK_FIRMWARE_VERSION        "0.1.0"
 
@@ -10,7 +10,7 @@
 #define APP_DEBUG
 
 #include "DHT.h"
-
+#include "WiFi.h"
 #include "BlynkEdgent.h"
 
 #define DHTPIN 23
